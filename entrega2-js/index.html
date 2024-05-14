@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
+    <script src="javascript.js" async></script>
+    
+  </head>
+  <body>
+    <header>
+      <h1>TIENDA DE CAMISETAS</h1>
+    </header>
+
+    <section class="contenedor">
+      <div class="contenedor-items">
+        <div class="item">
+          <span class="titulo-item">Arsenal</span>
+          <img src="../img/Arsenal.png" alt="Arsenal" class="img-item" />
+          <span class="precio-item">$25.000</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item">
+          <span class="titulo-item">Boca</span>
+          <img src="../img/Boca.png" alt="Boca" class="img-item" />
+          <span class="precio-item">$20.000</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item">
+          <span class="titulo-item">Liverpool</span>
+          <img src="../img/Liverpool.png" alt="Liverpool" class="img-item" />
+          <span class="precio-item">$20.000</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item">
+          <span class="titulo-item">Lyon</span>
+          <img src="../img/Lyon.png" alt="Lyon" class="img-item" />
+          <span class="precio-item">$20.000</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item">
+          <span class="titulo-item">USWNT</span>
+          <img src="../img/USWNT.png" alt="USWNT" class="img-item" />
+          <span class="precio-item">$20.000</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item">
+          <span class="titulo-item">Barcelona</span>
+          <img src="../img/Barcelona.png" alt="Barcelona" class="img-item" />
+          <span class="precio-item">$20.000</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item">
+          <span class="titulo-item">San Diego Wave</span>
+          <img src="../img/San diego.jpeg" alt="San Diego Wave" class="img-item" />
+          <span class="precio-item">$20.000</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item">
+          <span class="titulo-item">Racing</span>
+          <img src="../img/Racing.webp" alt="Racing" class="img-item" />
+          <span class="precio-item">$20.000</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+      </div>
+
+      <div class="carrito" id="carrito">
+        <div class="header-carrito">
+            <h2>Tu Carrito</h2>
+        </div>
+
+        <div class="carrito-items">      
+          <div class="carrito-item">
+              <img src="../img/Arsenal.png" width="80px" alt="Arsenal">
+              <div class="carrito-item-detalles">
+                  <span class="carrito-item-titulo">Arsenal</span>
+                  <div class="selector-cantidad">
+                      <i class="fa-solid fa-minus restar-cantidad"></i>
+                      <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                      <i class="fa-solid fa-plus sumar-cantidad"></i>
+                  </div>
+                  <span class="carrito-item-precio">$25.000</span>
+              </div>
+             <span class="btn-eliminar">
+                  <i class="fa-solid fa-trash"></i>
+             </span>
+          </div>
+          <div class="carrito-item">
+              <img src="../img/San diego.jpeg" width="80px" alt="San Diego Wave">
+              <div class="carrito-item-detalles">
+                  <span class="carrito-item-titulo">San Diego Wave</span>
+                  <div class="selector-cantidad">
+                      <i class="fa-solid fa-minus restar-cantidad"></i>
+                      <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                      <i class="fa-solid fa-plus sumar-cantidad"></i>
+                  </div>
+                  <span class="carrito-item-precio">$20.000</span>
+              </div>
+              <span class="btn-eliminar">
+                <i class="fa-solid fa-trash"></i>
+             </button>
+          </div>
+
+      </div>
+      <div class="carrito-total">
+          <div class="fila">
+              <strong>Tu Total</strong>
+              <span class="carrito-precio-total">
+                  $85.000
+              </span>
+          </div>
+          <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+      </div>
+  </div>
+
+    </section>
+  </body>
+</html>
